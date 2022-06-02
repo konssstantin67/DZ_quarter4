@@ -128,10 +128,10 @@
 
 # 9. Среди натуральных чисел, которые были введены, найти наибольшее по сумме цифр. Вывести на экран это число и сумму его цифр.
 def sum_numbers(number):
-    sum = 0
+    sum1 = 0
     for i in number:
-        sum += int(i)
-    return sum
+        sum1 += int(i)
+    return sum1
 
 
 list_number = [i for i in input('ВВоди свои каракули(числа)! Через пробел! ').split()]
